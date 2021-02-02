@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+}
+
+#contenaire{
+  min-height: 100vh;
+  background: rgb(53, 51, 51);
+  padding-top: 10%;
+}
+
+.title{
+  width: 50%;
+  margin:  5% auto;
+  text-align: center;
+  font-size: 2.5em;
+  color: white;
+}
+
+#form{
+  width: 60%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  color: wheat;
+  >div{
+    width: 40%;
+    margin: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    input{
+      padding: 5px;
+      font-size: 1em;
+    }
+    button{
+      width: 50%;
+      font-size: 1.1em;
+      background: rgb(148, 216, 11);
+      outline: yellowgreen;
+    }
+  }
+}
+
+#api{
+  width: 60%;
+  margin: 3% auto;
+  background: white;
+  border-radius: 10px;
+  font-size: 1.3em;
+  text-align: center;
+  padding: 2%;
+  >div{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    >div{
+      width: 40%;
+      padding: 5px;
+      margin: 5px;
+    }
+  }
+
+}
